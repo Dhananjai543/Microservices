@@ -23,6 +23,10 @@ public class PaymentServiceImpl implements PaymentService{
     private static final String SERVICE_NAME = "payment-service";
     private static final String PAYMENT_PROCESSOR_URL = "http://localhost:1010/api/v1/processor-payment";
 
+//    Where is SERVICE_NAME Used?
+//    It is defined as: SERVICE_NAME = "payment-service";
+//    This must match the name in your rate-limiting properties:
+//    resilience4j.ratelimiter.instances.payment-service.limit-for-period=5
     @Override
     @RateLimiter(name = SERVICE_NAME, fallbackMethod = "fallbackMethod")
     public Type submitPayment(String paymentInfo) {
