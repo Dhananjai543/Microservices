@@ -1,4 +1,4 @@
-package com.circuit_breaker.order_service.config;
+package com.retry_mechanism.order_service.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

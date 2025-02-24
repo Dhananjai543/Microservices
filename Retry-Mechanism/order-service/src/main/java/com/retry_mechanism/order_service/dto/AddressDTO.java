@@ -1,4 +1,4 @@
-package com.circuit_breaker.order_service.dto;
+package com.retry_mechanism.order_service.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package com.circuit_breaker.order_service.model;
+package com.retry_mechanism.order_service.model;
 
 import lombok.Data;
 

@@ -1,4 +1,4 @@
-package com.circuit_breaker.order_service;
+package com.retry_mechanism.order_service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,12 +1,11 @@
-package com.circuit_breaker.order_service.service;
+package com.retry_mechanism.order_service.service;
 
 
-import com.circuit_breaker.order_service.dto.AddressDTO;
-import com.circuit_breaker.order_service.model.Failure;
-import com.circuit_breaker.order_service.model.Order;
-import com.circuit_breaker.order_service.model.Type;
-import com.circuit_breaker.order_service.repository.OrderRepository;
-import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
+import com.retry_mechanism.order_service.dto.AddressDTO;
+import com.retry_mechanism.order_service.model.Failure;
+import com.retry_mechanism.order_service.model.Order;
+import com.retry_mechanism.order_service.model.Type;
+import com.retry_mechanism.order_service.repository.OrderRepository;
 import io.github.resilience4j.retry.annotation.Retry;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.*;

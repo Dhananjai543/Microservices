@@ -1,7 +1,7 @@
-package com.circuit_breaker.order_service.config;
+package com.retry_mechanism.order_service.config;
 
-import com.circuit_breaker.order_service.model.Order;
-import com.circuit_breaker.order_service.repository.OrderRepository;
+import com.retry_mechanism.order_service.model.Order;
+import com.retry_mechanism.order_service.repository.OrderRepository;
 import jakarta.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
